@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+
+ </head>
+ <body>
+  <h1>Digite dois números:</h1>
+  <form action="/resultado1" method="post">
+   <label> Número 1: </label>
+   <input id= "n1" name="n1"/>
+   <label> Número 2: </label>
+   <input id= "n2" name="n2"/>
+   <button type="submit">Somar</button><br><br>
+</form>
+
+   <form action="/resultado2" method="post">
+    <label> Número 1: </label>
+    <input id= "n1" name="n1"/>
+    <label> Número 2: </label>
+    <input id= "n2" name="n2"/>
+   <button type="submit">Subtrair</button><br><br>
+</form>
+
+   <form action="/resultado3" method="post">
+    <label> Número 1: </label>
+    <input id= "n1" name="n1"/>
+    <label> Número 2: </label>
+    <input id= "n2" name="n2"/>
+   <button type="submit">Multiplicar</button><br><br>
+   </form>
+
+   <form action="/resultado4" method="post">
+    <label> Número 1: </label>
+    <input id= "n1" name="n1"/>
+    <label> Número 2: </label>
+    <input id= "n2" name="n2"/>
+   <button type="submit">Dividir</button><br><br>
+  </form>
+
+  <h1><%=resposta%></h1>
+ </body>
+</html>
